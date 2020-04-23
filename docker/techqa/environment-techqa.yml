@@ -1,0 +1,21 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - boto3
+  - transformers=2.5.1
+  - tensorflow=1.13
+  - tensorboardx=1.7
+  - pyyaml=3.13
+  - tornado=5
+  - git
+  - configargparse=0.14
+  - nltk=3.4
+  - pandas=0.24
+  - pandasql=0.7
+  - xlrd=1.2
+  - pip:
+    - sacremoses
+    - sentencepiece
