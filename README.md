@@ -1,6 +1,6 @@
 # The TechQA dataset
 
-This repo contains code to run the TechQA dataset released in the ACL 2020 paper: [The TechQA dataset](https://arxiv.org/abs/1911.02984)
+This repo contains code to train and run a baseline model against the TechQA dataset released in the ACL 2020 paper: [The TechQA dataset](https://arxiv.org/abs/1911.02984)
 
 This dataset has a leaderboard task which can be found here: http://ibm.biz/Tech_QA
 
