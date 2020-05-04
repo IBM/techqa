@@ -4,7 +4,7 @@ This page contains instructions about how to make a docker submission to the [Te
 
 This docker image runs a single model for prediction and can decode on GPUs. Note that this docker setup has only been tested with BERT models (not RoBERTa etc.), so other models may require modification of these files to work. 
 
-Note: All submissions to the leaderboard run without any network access. Please make sure to have downloaded all external resources during image construction.
+Note: All submissions to the leaderboard run without any network access. Please make sure to have downloaded all external resources during image construction. For example, if you need a standard public BERT model, it must be in the image you submit because the image will not be able to download it from the network.
 
 ## Building Image
 
