@@ -35,6 +35,8 @@ nvidia-docker run --rm -e CUDA_VISIBLE_DEVICES=0 --network none -v <PATH TO fold
  the same can be done for corpus file `DEV_INPUT_CORPUS` and output file `DEV_OUTPUT_FILE` (defaults in the [Dockerfile](./Dockerfile)).
 - If you have Docker 19.03 or later, `nvidia-docker` is no longer needed as NVIDIA GPUs are natively supported in Docker.
   See the [documentation](https://github.com/NVIDIA/nvidia-docker#quickstart) for more information.
+- It is good etiquette to run our commands within the container as a user other than root.  Please consider doing so.  See the [USER command](https://docs.docker.com/engine/reference/builder/#user) in the docker documentation for details and examples.
+
 ## Submitting to TechQA leaderboard
 
 1) Build Image
