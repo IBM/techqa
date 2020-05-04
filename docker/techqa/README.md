@@ -2,9 +2,9 @@
 
 This page contains instructions about how to make a docker submission to the [TechQA leaderboard](https://leaderboard.techqa.us-east.containers.appdomain.cloud)
 
-This docker image runs a single model for prediction and can decode on GPUs. Note that this Docker setup has only been tested with BERT models (not RoBERTa etc.), so other models may require modification of these files to work. 
+This docker image runs a single model for prediction and can decode on GPUs. Note that this docker setup has only been tested with BERT models (not RoBERTa etc.), so other models may require modification of these files to work. 
 
-Note: All submissions to the leaderboard run without any network access. Please make sure how have downloaded all external resources during image construction.
+Note: All submissions to the leaderboard run without any network access. Please make sure to have downloaded all external resources during image construction.
 
 ## Building Image
 
@@ -41,6 +41,6 @@ nvidia-docker run --rm -e CUDA_VISIBLE_DEVICES=0 --network none -v <PATH TO fold
 2) Test Image
 3) Push image to your docker registry
 4) Go to the submission site: https://leaderboard.techqa.us-east.containers.appdomain.cloud
-5) Create an account if you don't have on already and login.
+5) Create an account if you don't have one already and login.
 6) Click on the `Create Submission` button to see the submission form.
 

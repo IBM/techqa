@@ -1,8 +1,8 @@
 # The TechQA dataset
 
-This repo contains code to run the TechQA dataset released in the ACL paper: [The TechQA dataset](https://arxiv.org/abs/1911.02984)
+This repo contains code to run the TechQA dataset released in the ACL 2020 paper: [The TechQA dataset](https://arxiv.org/abs/1911.02984)
 
-This dataset has a leaderboard task which can be found here: https://leaderboard.techqa.us-east.containers.appdomain.cloud
+This dataset has a leaderboard task which can be found here: http://ibm.biz/Tech_QA
 
 Please refer [here](./docker/techqa/README.md) for details about how to make a submission to the leaderboard.
 
@@ -20,7 +20,7 @@ If you want to run with `fp16`, you need to install [Apex]( https://github.com/N
 
 In order to train a model on TechQA, use the script below. 
 
-Note: Since TechQA is smaller dataset, it is better to start with a model that is already trained on a bigger QA dataset. Here, we start off with BERT Large trained on Squad.
+Note: Since TechQA is smaller dataset, it is better to start with a model that is already trained on a bigger QA dataset. Here, we start with BERT-Large trained on Squad.
 
 ```
 python run_techqa.py \
