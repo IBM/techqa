@@ -43,6 +43,6 @@ nvidia-docker run --rm -e CUDA_VISIBLE_DEVICES=0 --network none -v <PATH TO fold
 2) Test Image
 3) Push image to your docker registry
 4) Go to the submission site: https://leaderboard.techqa.us-east.containers.appdomain.cloud
-5) Create an account if you don't have one already and login.
+5) Login to your account (which you created to access the training set, dev set and Technotes corpus).
 6) Click on the `Create Submission` button to see the submission form.
 
