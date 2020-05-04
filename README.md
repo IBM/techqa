@@ -41,6 +41,21 @@ python run_techqa.py \
 
 You can add the `--fp16` flag if you have apex installed.
 
+To evaluate a model, you can run:
+
+```
+python run_techqa.py \
+    --model_type bert \
+    --model_name_or_path <PATH TO TRAINED MODEL FOLDER> \
+    --do_lower_case \
+    --do_eval \
+    --predict_file <PATH TO dev_Q_A.json> \
+    --input_corpus_file <PATH TO training_dev_technotes.json> \
+    --overwrite_output_dir \
+    --output_dir <PATH TO OUTPUT FOLDER> \ 
+    --add_doc_title_to_passage 
+```
+
 
 ## Contact
 
