@@ -61,5 +61,5 @@ python run_techqa.py \
 
 For help or issues, please submit a GitHub issue.
 
-For direct communication, please contact Vittorio Castelli (vittorio at us dot ibm dot com).
+For direct communication, please contact Avi Sil (avi@us.ibm.com).
 
