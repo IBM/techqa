@@ -1,3 +1,9 @@
+# Note: the TechQA leaderboard has been sunset since April 2023.
+
+The dataset is available [here](https://ibm.biz/techqa_data).
+
+
+
 # TechQA Submission Docker
 
 This page contains instructions about how to make a docker submission to the [TechQA leaderboard](https://leaderboard.techqa.us-east.containers.appdomain.cloud)
