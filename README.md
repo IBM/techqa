@@ -3,7 +3,7 @@
 This repo contains the code to train and run a baseline model against the TechQA dataset released in the ACL 2020 paper: [The TechQA dataset](https://arxiv.org/abs/1911.02984)
 
 The TechQA train and dev data along with 800,000 TechNotes are available [here](https://huggingface.co/datasets/PrimeQA/TechQA).
-Note: The download may take some time depending on your internet speed. There are several large files in the tar ball.
+Note: You need to go to "Files and versions" -> then download the tar gz file. The download may take some time depending on your internet speed. There are several large files in the tar ball.
 Also, note, that the TechQA leaderboard has been sunset. However, you're welcome to use the data. Please cite [the paper](https://arxiv.org/abs/1911.02984) in your publications/ experiments.
 
 ## Installation
