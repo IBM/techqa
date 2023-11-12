@@ -163,6 +163,8 @@ def predict_output(device, eval_features: List[TechQaInputFeature], eval_dataset
                         'attention_mask': batch[1],
                         'token_type_ids': batch[2]
                         }
+            if model_type in ["roberta"]:
+                del inputs["token_type_ids"]
                         
             outputs = model(**inputs)
             feature_vector_indeces = batch[5]
